@@ -52,12 +52,12 @@ function radFunction(){
 	
 	newPrice = document.getElementById('priceInput').value;
 	
-	var ul=document.body.children[0];
+	var ul=document.body.children[1];
 	var appChild = document.createElement('li');
 	appChild.innerHTML=newItem;
 	ul.appendChild(appChild);
 	
-	var ul2 = document.body.children[1];
+	var ul2 = document.body.children[2];
 	var appChild2 = document.createElement('li');
 	appChild2.innerHTML=newPrice;
 	ul2.appendChild(appChild2);
