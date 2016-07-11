@@ -1,0 +1,57 @@
+body{
+	width:500px;
+	margin:0 auto;
+	text-align: center;
+	/*padding-bottom: 10px;*/
+	font-size:20px;
+
+}
+header{
+	position:static;
+	padding: 5px 10px;
+	margin: 0;
+	text-transform: uppercase;
+    border-top: 2px dotted black;
+	border-bottom: 2px dotted black;
+}
+
+
+ul,#prettyList{
+	list-style: none; 
+	background-color: silver;
+	padding: 0;	
+	width:250px;
+	float:left;
+   list-style: none;
+text-align: center;
+
+}
+
+/*li{
+	border: 1px solid silver; 
+	background-color: silver;
+	padding: 2px 7px;
+
+}*/
+
+/*#prettyList{
+float:left;
+list-style: none;
+text-align: center;
+list-style-type: circle black;
+}*/
+
+#prettyList2{
+float:left;
+list-style: none;
+text-align: center;
+}
+#totalspot{
+	clear:both;
+	background-color: yellow;
+}
+
+/*#shoppingList{
+	clear: both;
+	list-style: none;
+}*/
